@@ -5,7 +5,7 @@ using System;
 
 Console.WriteLine("Hello, World!");
 
-
+Dustech.CategoryTheory.Functional.Say.hello("Friend");
 
 
 #pragma warning restore CA1303

@@ -12,4 +12,9 @@
         <AnalysisMode>AllEnabledByDefault</AnalysisMode>
         <NeutralLanguage>en</NeutralLanguage>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Dustech.CategoryTheory.Functional\Dustech.CategoryTheory.Functional.fsproj" />
+      <ProjectReference Include="..\Dustech.CategoryTheory.OOP\Dustech.CategoryTheory.OOP.csproj" />
+    </ItemGroup>
 </Project>
